@@ -996,7 +996,9 @@ namespace Project_FinchControl
                         break;
                 }
                 Console.WriteLine($"\t{commandFeedback}");
+                
             }
+            DisplayContinuePrompt();
         }
 
         private static void UserProgrammingDisplayFinchCommands(List<Command> commands)
